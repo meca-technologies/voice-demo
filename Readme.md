@@ -1,4 +1,7 @@
 README
+
+https://www.sciencedirect.com/topics/computer-science/voice-activity-detection
+
 Created by Omid Sadjadi, August 29, 2018
 How to use the OpenSAT SAD scoring script
 1) Setting the Python environnement
