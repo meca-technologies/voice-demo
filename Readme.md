@@ -46,21 +46,21 @@ we used the MUSAN dataset, which provides a diverse set of audio signals for eva
             "vendor2_audio.wav",
             "vendor3_audio.wav"
                   ]
-    noise_file = "noise.wav"
+            noise_file = "noise.wav"
 
     # Initialize TTS engines
-    engines = []
-    for name in ["sapi5", "espeak", "google"]:
-    engine = pyttsx3.init(driverName=name)
-    engines.append(engine)
+               engines = []
+               for name in ["sapi5", "espeak", "google"]:
+               engine = pyttsx3.init(driverName=name)
+               engines.append(engine)
 
     # Load VAD model
-vad = webrtcvad.Vad()
+           vad = webrtcvad.Vad()
 
-# Generate speech output and evaluate performance
-for engine in engines:
-    print(f"Testing {engine.getProperty('name')} TTS engine...")
-    for i, text in enumerate(texts):
+    # Generate speech output and evaluate performance
+      for engine in engines:
+      print(f"Testing {engine.getProperty('name')} TTS engine...")
+      for i, text in enumerate(texts):
         # Measure latency
         start_time = time.time()
         engine.say(text)
