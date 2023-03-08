@@ -34,27 +34,27 @@ we used the MUSAN dataset, which provides a diverse set of audio signals for eva
     from pesq import pesq
 
     # Define parameters
-     texts = [
-    "The quick brown fox jumps over the lazy dog.",
-    "The rain in Spain stays mainly in the plain.",
-    "To be or not to be, that is the question.",
-    "In Xanadu did Kubla Khan a stately pleasure-dome decree.",
-    "It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife."
-    ]
-     audio_files = [
-    "vendor1_audio.wav",
-    "vendor2_audio.wav",
-    "vendor3_audio.wav"
-]
-noise_file = "noise.wav"
+          texts = [
+           "The quick brown fox jumps over the lazy dog.",
+            "The rain in Spain stays mainly in the plain.",
+            "To be or not to be, that is the question.",
+            "In Xanadu did Kubla Khan a stately pleasure-dome decree.",
+            "It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife."
+                  ]
+            audio_files = [
+            "vendor1_audio.wav",
+            "vendor2_audio.wav",
+            "vendor3_audio.wav"
+                  ]
+    noise_file = "noise.wav"
 
-# Initialize TTS engines
-engines = []
-for name in ["sapi5", "espeak", "google"]:
+    # Initialize TTS engines
+    engines = []
+    for name in ["sapi5", "espeak", "google"]:
     engine = pyttsx3.init(driverName=name)
     engines.append(engine)
 
-# Load VAD model
+    # Load VAD model
 vad = webrtcvad.Vad()
 
 # Generate speech output and evaluate performance
