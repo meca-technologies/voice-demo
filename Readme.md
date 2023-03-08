@@ -21,8 +21,15 @@ we used the MUSAN dataset, which provides a diverse set of audio signals for eva
 
     $ pip install pyttsx3 librosa numpy python-Levenshtein webrtcvad pydub pesq
 
+1- Create a file, e.g tts_benchmark.py
+   
+   
+   
+1- Save the code to a Python file, e.g. tts_benchmark.py
+2- Place the input audio files (vendor1_audio.wav, vendor2_audio.wav, and vendor3_audio.wav) and the noise file (noise.wav) in the same directory as the Python file.
+3- Open a terminal or command prompt in the directory where the Python file and audio files are located.
+4- 
 
-### Installation from source
 
     
     $ git clone https://github.com/prakashr7d/Research-implementation-NLU-engine.git
