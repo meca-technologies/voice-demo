@@ -1,9 +1,5 @@
 #Objective metrics used to measure the quality of audio, such as the Signal-to-Noise Ratio (SNR), the Mean Opinion Score (MOS), and the Perceptual Evaluation of Speech Quality (PESQ).
 
-Location based community app
-Build Using react Native, We're trying to bring people together by allowing them to find courts (basket ball, soccer, football) nearby.
-
-![home-12](https://user-images.githubusercontent.com/15659840/187789415-99f18d8b-28cf-461d-8314-3701f55036ab.png)
 
 
 Installation. both IOS and Android
