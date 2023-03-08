@@ -1,7 +1,5 @@
 <!-- version tag -->
 
-
-<img src="https://www.puretalk.ai/static/assets/Puretalk.png" height= 200px>
  
 Ruth Natural Language Understanding
 ---
