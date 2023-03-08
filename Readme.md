@@ -120,8 +120,11 @@ we used the MUSAN dataset, which provides a diverse set of audio signals for eva
 
 
 
-*To use pre-processed audio - Please look for the folder voice_clips/
+*To use pre-processed audio - Please look for the folder raw.githubusercontent.com/meca/meca.github.io/main
+/voice_clips/
 
+
+* replace audio file name in audio_files
 
 
 
