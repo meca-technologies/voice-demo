@@ -1,11 +1,5 @@
 <!-- version tag -->
 
-<div>
-<a href="https://colab.research.google.com/drive/1ghKnhJG1uXlA93y6trjy4hDsVzMLidhw?usp=sharing"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a>
- <a href="https://github.com/prakashr7d/Research-implementation-NLU-engine/tree/main/.github/workflows"><img src="https://img.shields.io/badge/ruth-passing-green?style=flat" alt="ruth" /> </a>
- <a href = 'https://pypi.org/project/ruth-python/'><img src="https://img.shields.io/badge/ruth-PyPi-blue?style=flat&logo=python" alt="ruth" /> </a>
- <a href="https://medium.com/@Sanjaypranav/ruth-a-natural-language-understanding-framework-developed-by-puretalk-ai-5f229aacbf2a"><img src="https://img.shields.io/badge/read-medium-lightgrey?style=flat&logo=medium"></a>
- </div>
 
 <img src="https://www.puretalk.ai/static/assets/Puretalk.png" height= 200px>
  
