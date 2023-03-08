@@ -17,7 +17,10 @@ To compute these metrics, we use Python libraries such as pydub and pesq. pydub 
 
 we used the MUSAN dataset, which provides a diverse set of audio signals for evaluation, including music, speech, and noise. 
 
-    $ pip install ruth-python
+# <div align="center">See installation bellow</div>
+
+    $ pip install pyttsx3 librosa numpy python-Levenshtein webrtcvad pydub pesq
+
 
 ### Installation from source
 
