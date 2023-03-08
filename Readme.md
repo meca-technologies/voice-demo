@@ -127,7 +127,7 @@ we used the MUSAN dataset, which provides a diverse set of audio signals for eva
 * replace audio file name in audio_files
 
 
-
+NB: In general, the fundamental frequency of the complex speech tone – also known as the pitch or f0 – lies in the range of 100-120 Hz for men, but variations outside this range can occur. The f0 for women is found approximately one octave higher. For children, f0 is around 300 Hz. (The spectrum of speech - DPA Microphone)
 
 
 
