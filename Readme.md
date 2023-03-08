@@ -15,7 +15,7 @@ To compute these metrics, we use Python libraries such as pydub and pesq. pydub 
 
 we used the MUSAN dataset, which provides a diverse set of audio signals for evaluation, including music, speech, and noise. 
 
-#<p> Methods, libraries & software used to compare voice quality: <a href="https://pypi.org/project/tts-scores/"> tts-scores</a> by James B. <br> https://www.nist.gov/itl/iad/mig/tools by National Institute of Standards and Technology.</p>
+<p>Other ethods, libraries & software used to compare voice quality: <a href="https://pypi.org/project/tts-scores/"> tts-scores</a> by James B. <br> https://www.nist.gov/itl/iad/mig/tools by National Institute of Standards and Technology.</p>
 
 # <div align="center">See installation bellow</div>
 
