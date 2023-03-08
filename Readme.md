@@ -1,9 +1,9 @@
 <!-- version tag -->
 
  
-Ruth Natural Language Understanding
+RUTH TTS Benchmark, accuracy and voice quality test.
 ---
-Welcome to RUTH (Really Understanding The Humans) NLU documentation. RUTH is a open sourced Natural Language Understanding (NLU) framework developed by [puretalk.ai](https://puretalk.ai/). It is a Python module that allows you to parse natural language sentences and extract information from them.
+Objective metrics such as the Signal-to-Noise Ratio (SNR), the Mean Opinion Score (MOS), and the Perceptual Evaluation of Speech Quality (PESQ) are used to measure the quality of the audio.
 
 RUTH is cli based tool that can be used to train and test models. 
 
