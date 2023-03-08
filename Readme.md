@@ -114,8 +114,16 @@ we used the MUSAN dataset, which provides a diverse set of audio signals for eva
 5- Run the Python file using the following command:
  
  
+ 
    
     python tts_benchmark.py
+
+
+
+
+
+
+
 
 
 
