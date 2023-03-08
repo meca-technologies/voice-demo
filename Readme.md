@@ -104,10 +104,12 @@ we used the MUSAN dataset, which provides a diverse set of audio signals for eva
    
    
    
-1- Save the code to a Python file, e.g. tts_benchmark.py
-2- Place the input audio files (vendor1_audio.wav, vendor2_audio.wav, and vendor3_audio.wav) and the noise file (noise.wav) in the same directory as the Python file.
-3- Open a terminal or command prompt in the directory where the Python file and audio files are located.
-4- 
+2- Save the code to a Python file, e.g. tts_benchmark.py
+
+3- Place the input audio files (from various TTS Vendors) (vendor1_audio.wav, vendor2_audio.wav, and vendor3_audio.wav) and the noise file (noise.wav) in the same directory as the Python file.
+
+4- Open a terminal or command prompt in the directory where the Python file and audio files are located.
+
 
 
     
