@@ -5,8 +5,6 @@ RUTH TTS Benchmark, accuracy and voice quality test.
 ---
 Objective metrics such as the Signal-to-Noise Ratio (SNR), the Mean Opinion Score (MOS), and the Perceptual Evaluation of Speech Quality (PESQ) are used to measure the quality of the audio.
 
-RUTH is cli based tool that can be used to train and test models. 
-
 
 # <div align="center">Full documentation</div>
 
