@@ -1,44 +1,47 @@
-README
+#Objective metrics used to measure the quality of audio, such as the Signal-to-Noise Ratio (SNR), the Mean Opinion Score (MOS), and the Perceptual Evaluation of Speech Quality (PESQ).
 
-https://www.sciencedirect.com/topics/computer-science/voice-activity-detection
+Location based community app
+Build Using react Native, We're trying to bring people together by allowing them to find courts (basket ball, soccer, football) nearby.
 
-Created by Omid Sadjadi, August 29, 2018
-How to use the OpenSAT SAD scoring script
-1) Setting the Python environnement
-The scoring script has been developed and tested in Python 3 (version 3.6+). Here, we provide an example of a requirements file for conda.
+![home-12](https://user-images.githubusercontent.com/15659840/187789415-99f18d8b-28cf-461d-8314-3701f55036ab.png)
 
-requirements.txt
 
-name: opensat
-dependencies:
-  - python=3.6
-  - numpy=1.14.5
-a) Using conda manager
-Conda is an open source package and environment management system. The Miniconda version comes with a python distribution and is very light.
+Installation. both IOS and Android
+In order to setup for React Native template you should connect to the internet and install dependencies library.
 
-Download Miniconda (Python3) from: https://conda.io/miniconda.html
-Run the following commands (based on the previous requirements file example)
-> conda env create -f requirements.txt
-> source activate opensat
-b) Alternatives
-If you already have your own Python 3.6 environnement (using virtualenv for example), use the pip command to install the required packages (e.g., numpy). Please make sure to meet the above noted requirements.
+this is important, please make sure you have already setup your environment. Node & NPM installation this package globally on your machine.
 
-2) Running the scoring script
-The root directory contains the main script (i.e., opensat_sad_scorer.py) and with the default configuration as per the OpenSAT'19 evaluation plan guidelines. It also contains a sample system output file (i.e., system_output/opensat_sad_sysout.tsv), which is formatted according to the guidelines given in the OpenSAT'19 evaluation plan. Currently, only the dev data has been released, therefore we only provide an example for scoring the dev set.
+Install node and npm: Download it from here --> https://docs.npmjs.com/getting-started
 
-a) Testing the scoring script on a hypothesized system output
-A good test is to first run the scoring script with the provided sample system output as input. This will compute the performance metric specified in the OpenSAT'19 evaluation plan. The sample system output is located in system_output/ folder. It meets the OpenSAT'19 system output format requirements.
+	 
+          node --version
+          npm --version
+          
+ And run the simulator mobile iOs or Android base on this guide https://facebook.github.io/react-native/docs/getting-started.html, it will help to started with installing your first application with React Native apps.        
 
-From the root directory, execute the following command:
+Next, Download the repo.
 
-> python3 opensat_sad_scorer.py -o system_output/opensat_sad_sysout.tsv -r opensat_sad_key.tsv
-b) Scoring your own system output¶
-From the root directory, execute the following command:
+In the folder "My Mobile Application" you have one zip file.
+# If you're running linux, unzip the folder in CLI
 
-> python3 opensat_sad_scorer.py -o /path/to/system_output.tsv -r /path/to/opensat_sad_key.tsv
-3) Legal notice
-This software was developed at the National Institute of Standards and Technology (NIST/ITL/IAD/MIG) by employees of the Federal Government in the course of their official duties. Pursuant to Title 17 Section 105 of the United States Code this software is not subject to copyright protection and is in the public domain. Permission to freely use, copy, modify, and distribute this software and its documentation without fee is hereby granted, PROVIDED that this notice and disclaimer of warranty appears in all copies
+Extract the file project source code and add it to your workspace.
 
-This software is offered AS IS. NIST assumes no responsibility whatsoever for its use by other parties, and makes no guarantees and NO WARRANTIES, EXPRESSED OR IMPLIED, about its quality, reliability, fitness for any purpose, or any other characteristic.
+Open the folder project in the terminal / command line,
 
-We would appreciate acknowledgement if the software is used.
+cd /MyMobileApplication/MyTurfLocator
+run the command and run the following command:
+
+ 
+	npm insatll
+	or
+	yarn install 
+		
+This will install all the required modules for your app.
+
+
+Since this app will run on both android and IOS, i've adding this example to identify which platform it's running on.
+
+       import { Platform, StyleSheet } from 'react-native';
+       const styles = StyleSheet.create({
+       height: Platform.OS === 'ios' ? 200 : 100
+       });
