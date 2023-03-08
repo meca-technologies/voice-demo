@@ -120,7 +120,7 @@ we used the MUSAN dataset, which provides a diverse set of audio signals for eva
 
 
 
-
+*To use pre-processed audio - Please look for the folder voice_clips/
 
 
 
