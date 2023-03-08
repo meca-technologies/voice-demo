@@ -8,11 +8,13 @@ Objective metrics such as the Signal-to-Noise Ratio (SNR), the Mean Opinion Scor
 RUTH is cli based tool that can be used to train and test models. 
 
 
-# <div align="center">Installation </div>
+# <div align="center">Full documentation</div>
 
 
-# Quick installation
-    
+# Metrics
+
+To compute these metrics, we use Python libraries such as pydub and pesq. pydub is a simple and easy-to-use audio manipulation library that can be used to extract and process audio data. pesq is a Python implementation of the ITU-T P.862 PESQ algorithm, which is a widely used objective metric for evaluating speech quality.
+
     $ pip install ruth-python
 
 ### Installation from source
